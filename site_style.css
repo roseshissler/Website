@@ -236,3 +236,19 @@ td{
     font-size: 1em;
     color: #9e2c36;
 }
+
+.scroll-container{ 
+    height: 70vh;
+    width: 100vw;
+    background-color:#9e2c36;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px; 
+    display: flex;
+}
+
+.scroll-container img {
+    padding: 10px;
+    height: 60vh;
+    width: 40vw;
+}
